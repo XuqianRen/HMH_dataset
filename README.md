@@ -6,8 +6,8 @@ In this repository, we release our dataset and the codes for the dataset generat
 
 We generate our training dataset based on a public dataset: https://www.kaggle.com/laurentmih/aisegmentcom-matting-human-datasets. 
 
-Our generated HMH dataset can be downloaded from 
+Our generated HMH dataset can be downloaded from https://1drv.ms/u/s!Aqnc8W8pU0scakyZpbg3j-mIHw4?e=V4ZdDY
 
-[OneDrive]: https://1drv.ms/u/s!Aqnc8W8pU0scamowfLR5AjdkxVs?e=DNtvIF
+The dataset contains the original real images and their corresponding alpha images, and it also contains the foreground and background images we extracted from the real images.
 
-The generating pipeline code can be found in generate.py
+The generating pipeline code can be found in generate.py, we also provide the color change transfer codes in color_transfer.py,  which purpose to change the background of the images.
